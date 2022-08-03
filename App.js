@@ -2,6 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, SafeAreaView } from "react-native";
 import { NativeBaseProvider, Box } from "native-base";
 
+import { colors } from "./constants/colors";
+
 import Header from "./src/components/shared/Header";
 import DashboardScreen from "./src/screens/DashboardScreen";
 
