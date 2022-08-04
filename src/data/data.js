@@ -1,0 +1,55 @@
+export const data = [
+  {
+    icon: require("../.././assets/sales-icon.jpeg"),
+    title: "Sales",
+    amount: "45000 BDT",
+    infoTitle: "Number of Invoice",
+    infoAmount: "105",
+  },
+  {
+    icon: require("../.././assets/collection-icon.jpeg"),
+    title: "Collection",
+    amount: "25000 BDT",
+    infoTitle: "Number of Invoice",
+    infoAmount: "105",
+  },
+  {
+    icon: require("../.././assets/store-icon.jpeg"),
+    title: "Store Purchase",
+    amount: "25000 BDT",
+    infoTitle: "Number of Invoice",
+    infoAmount: "105",
+  },
+  {
+    icon: require("../.././assets/pharmacy-icon.jpeg"),
+    title: "Pharmacy Purchase",
+    amount: "25000 BDT",
+    infoTitle: "Number of Invoice",
+    infoAmount: "105",
+  },
+  {
+    icon: require("../.././assets/opd-icon.png"),
+    title: "OPD",
+    amount: "25000 BDT",
+    infoTitle: "Number of Registrations",
+    infoAmount: "1050",
+  },
+  {
+    icon: require("../.././assets/ipd-icon.jpeg"),
+    title: "IPD",
+    amount: "25000 BDT",
+    infoTitle: [
+      "Admission Patient\n",
+      "Admitted Patient\n",
+      "Discharged Patient",
+    ],
+    infoAmount: ["105\n", "1505\n", "205"],
+  },
+  {
+    icon: require("../.././assets/consultation-icon.jpeg"),
+    title: "Consultation",
+    amount: "25000 BDT",
+    infoTitle: ["Few Patients\n", "Follow-up Patients\n", "Reports Show"],
+    infoAmount: ["105\n", "50\n", "05"],
+  },
+];

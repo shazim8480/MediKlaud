@@ -4,11 +4,11 @@ import { HStack, VStack } from "native-base";
 
 const Header = () => {
   return (
-    <View style={{ flex: 1, paddingTop: 20 }}>
+    <View style={{ paddingTop: 30, paddingBottom: 40, paddingHorizontal: 15 }}>
       <HStack justifyContent="space-between" alignItems="flex-start">
         {/* mediklaud logo */}
         <VStack space={3}>
-          <Text style={{ fontSize: 18 }}>welcome to</Text>
+          <Text style={{ fontSize: 20 }}>welcome to</Text>
           <View style={{ width: "100%" }}>
             <Image
               style={{ width: 200 }}
