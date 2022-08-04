@@ -1,5 +1,6 @@
 export const data = [
   {
+    id: "1",
     icon: require("../.././assets/sales-icon.jpeg"),
     title: "Sales",
     amount: "45000 BDT",
@@ -7,6 +8,7 @@ export const data = [
     infoAmount: "105",
   },
   {
+    id: "2",
     icon: require("../.././assets/collection-icon.jpeg"),
     title: "Collection",
     amount: "25000 BDT",
@@ -14,6 +16,7 @@ export const data = [
     infoAmount: "105",
   },
   {
+    id: "3",
     icon: require("../.././assets/store-icon.jpeg"),
     title: "Store Purchase",
     amount: "25000 BDT",
@@ -21,6 +24,7 @@ export const data = [
     infoAmount: "105",
   },
   {
+    id: "4",
     icon: require("../.././assets/pharmacy-icon.jpeg"),
     title: "Pharmacy Purchase",
     amount: "25000 BDT",
@@ -28,6 +32,7 @@ export const data = [
     infoAmount: "105",
   },
   {
+    id: "5",
     icon: require("../.././assets/opd-icon.png"),
     title: "OPD",
     amount: "25000 BDT",
@@ -35,6 +40,7 @@ export const data = [
     infoAmount: "1050",
   },
   {
+    id: "6",
     icon: require("../.././assets/ipd-icon.jpeg"),
     title: "IPD",
     amount: "25000 BDT",
@@ -46,6 +52,7 @@ export const data = [
     infoAmount: ["105\n", "1505\n", "205"],
   },
   {
+    id: "7",
     icon: require("../.././assets/consultation-icon.jpeg"),
     title: "Consultation",
     amount: "25000 BDT",
